@@ -22,7 +22,5 @@ Real-time Updates & Calendar View: Financial performance tracking and goal setti
 📈 Quick Start Guide
 Clone the repository and set up your environment.
 Deploy effortlessly with free cloud options available for both the frontend and backend.
-I invite everyone interested in finance and technology to check out the details above, explore the project, and perhaps even contribute! 😊
-Stay tuned for more updates, and feel free to reach out if you want to learn more about my journey or collaborate on future projects!
+I invite everyone interested in finance and technology to check out the details above, explore the project, and even contribute! 😊
 
-This journey has been a testament to the magic that GenAI can bring to personal projects and beyond. Here's to building more dreams! 🥂
