@@ -129,6 +129,14 @@ Finance_App/
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:5001
 
+<img width="1737" height="807" alt="Screenshot 2025-07-29 142435" src="https://github.com/user-attachments/assets/9c3d15f8-ac90-4fa2-a2cf-f48d7998f9c5" />
+<img width="1629" height="815" alt="Screenshot 2025-07-29 142605" src="https://github.com/user-attachments/assets/1f52654d-d8c6-4101-b622-d190dd3186ca" />
+<img width="1644" height="923" alt="Screenshot 2025-07-29 142733" src="https://github.com/user-attachments/assets/c9b7c15f-76ee-4d0b-896f-fb2809f6f5e3" />
+<img width="1638" height="931" alt="Screenshot 2025-07-29 142806" src="https://github.com/user-attachments/assets/7cb5dc62-2644-43b6-9cb8-f45ba05aa3fd" />
+<img width="1560" height="904" alt="Screenshot 2025-07-29 142837" src="https://github.com/user-attachments/assets/93a2c388-516f-457b-b05e-472aa7f16285" />
+<img width="1548" height="904" alt="Screenshot 2025-07-29 143230" src="https://github.com/user-attachments/assets/efdd99cc-17bd-4546-a18d-772ba33ab70d" />
+
+
 ## 📊 How PDF Processing Works
 
 ### 1. **Upload PDF Statement**
