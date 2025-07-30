@@ -1,0 +1,13 @@
+{
+  "name": "finance-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd Server && npm run dev",
+    "client": "cd Client && npm start",
+    "install-all": "npm install && cd Client && npm install && cd ../Server && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}

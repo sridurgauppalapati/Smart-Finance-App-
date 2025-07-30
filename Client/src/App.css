@@ -1,0 +1,336 @@
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2196F3;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.page {
+  padding: 2rem;
+}
+
+.member-form, .entry-form, .expectation-form {
+  background: #f5f5f5;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.member-form input, .entry-form input, .expectation-form input, select {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+.members-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.member-card, .expectation-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.member-summary {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.financial-summary {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.financial-summary span {
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.income { background: #4CAF50; color: white; }
+.expenses { background: #F44336; color: white; }
+.investment { background: #2196F3; color: white; }
+.savings { background: #FF9800; color: white; }
+
+.view-controls {
+  margin: 1rem 0;
+}
+
+.view-controls button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.view-controls button.active {
+  background: #2196F3;
+  color: white;
+}
+
+.performance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.performance-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+
+.legend {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.calculated-value {
+  color: #2196F3;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.total-check {
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #333;
+}
+
+button {
+  background: #2196F3;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #1976D2;
+}
+
+.pdf-upload {
+  background: #e3f2fd;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border: 2px dashed #2196F3;
+}
+
+.pdf-upload label {
+  font-weight: bold;
+  color: #1976D2;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.pdf-upload input[type="file"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #2196F3;
+  border-radius: 4px;
+  background: white;
+}
+
+/* PDF Uploader Styles */
+.pdf-uploader {
+  background: #f0f8ff;
+  border: 2px dashed #2196F3;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.upload-section input[type="file"] {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.file-info {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: white;
+  border-radius: 4px;
+}
+
+.result {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.result.success {
+  background: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+}
+
+.result.error {
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+}
+
+.transactions-preview {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.transaction-item .income {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.transaction-item .expense {
+  color: #F44336;
+  font-weight: bold;
+}
+
+/* Monthly Summary Styles */
+.year-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.year-selector button {
+  background: #2196F3;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.months-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.month-card {
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.month-card:hover {
+  border-color: #2196F3;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.month-card.selected {
+  border-color: #2196F3;
+  background: #f0f8ff;
+}
+
+.month-card h4 {
+  margin: 0 0 1rem 0;
+  text-align: center;
+  color: #333;
+}
+
+.member-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.member-tag {
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+  min-width: 60px;
+}
+
+.summary-details {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
